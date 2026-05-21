@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Limitations of econometric evaluation of nonrandomized residential energy efficiency programs: A case study of Northern California rebate programs",
+        "authors": "Evan D. Sherwin; Russell M. Meyer; In\u00eas M.L. Azevedo",
+        "doi": "https://doi.org/10.1017/eds.2021.1",
+        "year": 2022,
+        "volume": 1,
+        "data_type": "interval electricity consumption data (AMI), tabular, household survey data",
+        "data_type_quote": "\"Our primary data source is interval electricity consumption data from dwellings associated with approximately 30,000 PG&E residential customer accounts, roughly 10,000 from each of the three regions within the sample, the Central Valley, Inland Hills, and Coast.\"",
+        "analytical_method": "difference-in-difference regression, quasi-experimental econometric evaluation, propensity score matching (PSM)",
+        "analytical_method_quote": "\"We use a difference-in-difference regression approach to measure the association between energy efficiency rebate participation and electricity consumption using Equation (3).\"",
+        "performance_metrics": "95% confidence intervals, percentage change estimates",
+        "performance_metrics_quote": "\"Applying the difference-in-difference regression described above in Equation (3), we find that rebate participation did not appear to reduce electricity consumption and was instead associated with an average increase in electricity consumption of 7.2% with a 95% confidence interval of [4.5%, 10.1%].\"",
+        "energy_consumption_bool": false,
+        "energy_consumption_quote": null,
+        "hardware_or_system_size_bool": false,
+        "hardware_or_system_size_quote": null
+    },
+    {
+        "title": "Predicting years with extremely low gross primary production from daily weather data using Convolutional Neural Networks",
+        "authors": "Aris Marcolongo; Mykhailo Vladymyrov; Sebastian Lienert; Nadav Peleg; Sigve Haug; Jakob Zscheischler",
+        "doi": "https://doi.org/10.1017/eds.2022.1",
+        "year": 2022,
+        "volume": 1,
+        "data_type": "simulated daily weather data (temperature, precipitation, radiation), GPP time series",
+        "data_type_quote": "\"To circumvent data limitations in observations, we simulate 100,000 years of daily weather with a weather generator for three different geographical sites and subsequently simulate vegetation dynamics with a complex vegetation model.\"",
+        "analytical_method": "Convolutional Neural Networks (CNN-M, CNN-D), binary classification, regression, baseline linear model",
+        "analytical_method_quote": "\"Here, we explore the ability of Convolutional Neural Networks (CNNs) to predict years with extremely low gross primary production (GPP) from daily weather data in three different vegetation types.\"",
+        "performance_metrics": "area under the precision-recall curve (AUC), normalized root mean squared error (NRMSE)",
+        "performance_metrics_quote": "\"Overall, prediction accuracy is very good if the monthly or yearly GPP values are used as an intermediate training target (area under the precision-recall curve AUC \u22650.9).\"",
+        "energy_consumption_bool": false,
+        "energy_consumption_quote": null,
+        "hardware_or_system_size_bool": false,
+        "hardware_or_system_size_quote": null
+    }
+]
